@@ -5,8 +5,8 @@
 Whenever a new release is published, this formula will need to be updated with the latest URL and checksum of the download tar file. To calculate the checsum to be used in the formula, the simplest approach is to curl the resource URL and pipe it to `shasum`. e.g.:
 
 ```bash
-curl -L -s https://nexus.hyperledger.org/content/repositories/releases/org/hyperledger/fabric-ca/hyperledger-fabric-ca/darwin-amd64-1.1.0/hyperledger-fabric-ca-darwin-amd64-1.1.0.tar.gz | shasum -a 256
-58f63fb4b48399dc146c50b55e322ea572930653866603f10a48f32eac481c4f
+curl -L -s https://nexus.hyperledger.org/content/repositories/releases/org/hyperledger/fabric-ca/hyperledger-fabric-ca/darwin-amd64-1.2.0/hyperledger-fabric-ca-darwin-amd64-1.2.0.tar.gz | shasum -a 256
+83db27a4ef811ccc9f1e977f3a701b2f59024104f22527af3bc40c426a1ba8d7
 ```
 
 ### Testing
@@ -50,4 +50,3 @@ Then, check to see whether the binaries have been properly installed:
 ```bash
 which fabric-ca-client
 ```
-

@@ -42,7 +42,7 @@ Now that you have the tap based on your personal fork installed, you can
 test the command.
 
 ```bash
-brew install fabric-ca
+brew install fabric-ca@1.2.0
 ```
 
 Then, check to see whether the binaries have been properly installed:
